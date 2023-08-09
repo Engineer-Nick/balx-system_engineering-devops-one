@@ -1,2 +1,2 @@
 #!/bin/bash
-BINARY="10"; DECIMAL=$(echo "ibase=2; $BINARY" | bc); echo "$DECIMAL"
+echo $((2#BINARY))
